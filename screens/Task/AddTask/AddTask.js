@@ -65,7 +65,7 @@ export default ({ navigation }) => {
             localStorage.setItem("tasks", JSON.stringify(tasks));
             setMessage("Thêm công việc thành công!");
             setTimeout(() => {
-                navigation.navigate("ListTask");
+                navigation.navigate("Home");
             }, 500);
         }
     };
